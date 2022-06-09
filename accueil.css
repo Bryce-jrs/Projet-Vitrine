@@ -1,0 +1,117 @@
+@media screen and (min-width: 1024px) {
+  
+body{
+    background-color:#333;
+    background-image: url("./back.jpg");
+    width: auto;
+}
+
+.message{
+    font-family: serif;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 15%;
+    text-shadow: 1px 1px 2px;
+    color: #333;
+    animation-duration: 5s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+  
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: auto;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 0%;
+    text-shadow:  1px 1px 1px;
+  }
+
+  .topnav a:hover {
+    background: linear-gradient(180deg, orangered,#5E2750 );
+  }
+
+  .topnav a.active {
+    background: linear-gradient(180deg, orangered,#5E2750 );
+    color: white;
+  }
+
+}
+
+@media only screen and (min-width :650px) and (max-width: 1024px) {
+  body{
+    background-color:#333;
+    background-image: url("./back.jpg");
+    width: auto;
+  }
+
+.message{
+    font-family: serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 25%;
+    text-shadow: 1px 1px 2px;
+    color: #333;
+    animation-duration: 5s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes slide {
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+  
+  }
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: auto;
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17.5px;
+    margin-bottom: 0%;
+    text-shadow:  1px 1px 1px;
+  }
+
+  .topnav a:hover {
+    background: linear-gradient(180deg, orangered,#5E2750 );
+  }
+
+  .topnav a.active {
+    background: linear-gradient(180deg, orangered,#5E2750 );
+    color: white;
+  }
+
+}
+

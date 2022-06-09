@@ -1,0 +1,62 @@
+@media only screen and (min-width: 1024px){
+    
+body{
+    color: #fff8dc ;
+    border: solid;
+}
+
+.texte{
+    font-size:1.5em;
+    text-align: center;
+    height: 25%;
+    padding: 10px 10px;
+    color:black;
+}
+ 
+.appel{
+    text-align: center;
+    font-size:1.5em;
+    margin-right: 25%;
+    color: black;
+}
+h1{
+    text-align: center;
+    line-height: 180px;
+    margin-right: 40%;
+    font-size: 3em;
+    text-shadow:  1px 1px 2px;
+    color: #8b4513;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 0%;
+    text-shadow:  1px 1px 1px;
+  }
+
+  .topnav a:hover {
+    background: linear-gradient(180deg, orangered,#5E2750 );
+  }
+
+  .topnav a.active {
+    background: linear-gradient(180deg, orangered,#5E2750 );
+    color: white;
+  }
+
+  img{
+      width:300px;
+      border-radius: 60%;
+      margin-left: 37%;
+      margin-top: 0%;
+      margin-bottom: 2%;
+  }
+}
